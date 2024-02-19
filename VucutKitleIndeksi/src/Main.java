@@ -6,13 +6,13 @@ public class Main {
 
         // Kullanıcıdan boy ve kilo bilgilerinin alınması
         System.out.print("Lütfen Boyunuzu Giriniz (metre cinsinden): ");
-        double boy = input.nextDouble();
+        double height = input.nextDouble();
 
         System.out.print("Lütfen Kilonuzu (kilogram cinsinden): ");
-        double kilo = input.nextDouble();
+        double weight = input.nextDouble();
 
         // Vücut kitle İndeksinin(BMI)'nin hesaplanması
-        double bmi = kilo / (boy * boy);
+        double bmi = weight / (height * height);
 
         // BMI'nin ekrana yazdırılması
         System.out.println("Vücut Kitle Endeksiniz (BMI): " + bmi);
