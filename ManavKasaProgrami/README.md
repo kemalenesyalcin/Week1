@@ -1,0 +1,1 @@
+manavdan aldığı ürünlerin kilogram değerlerine göre toplam tutarını hesaplayan program.
