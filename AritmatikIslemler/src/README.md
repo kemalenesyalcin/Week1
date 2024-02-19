@@ -1,0 +1,1 @@
+Kullanıcıdan veri alınıp artimatik işlemeler ve öncelik sırası yapıldı.
