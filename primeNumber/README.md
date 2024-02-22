@@ -1,0 +1,1 @@
+Kullanıcının girdiği sayının asal olup olamdığını kontrol eden program
