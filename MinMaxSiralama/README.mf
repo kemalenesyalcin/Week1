@@ -1,0 +1,1 @@
+Girilen sayılardan min max olanı sıralam uygulaması
