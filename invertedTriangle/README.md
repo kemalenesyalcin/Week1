@@ -1,0 +1,1 @@
+Kullanıcının istediği büyüklükte ters üçgen yazan program
