@@ -1,1 +1,1 @@
-Girilen sayılardan min max olanı sıralam uygulaması
+Kullanıcıdan kaç adet sayı gireceğini soran ve girilen sayıların en büyük ve en küçük olanını yazdıran program.

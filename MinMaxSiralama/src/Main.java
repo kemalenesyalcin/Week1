@@ -3,37 +3,31 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        int a, b, c;
 
-        //Kullanıcıdan sayıların alınamsı
-        System.out.println("İlk Numarayı Giriniz");
-        a = inp.nextInt();
-        System.out.println("İkinci Numarayı Giriniz");
-        b = inp.nextInt();
-        System.out.println("Üçüncü Numarayı Giriniz");
-        c = inp.nextInt();
+        // Kullanıcıdan gireceği sayı adetini öğrenme
+        System.out.println("Kaç tane sayı gireceksiniz?");
+        int n = inp.nextInt();
 
-        //Numaraların Sıralandırılması ve sonuc
-        if (a > b && a > c) {
-            if (b > c) {
-                System.out.println("Sıralama: " + a + ", " + b + ", " + c);
-            } else {
-                System.out.println("Sıralama: " + a + ", " + c + ", " + b);
+        // İlk yazılan sayıyı en büyük ve en küçük sayı olarak atama
+        System.out.println("1. sayıyı giriniz:");
+        int max = inp.nextInt();
+        int min = max;
+
+        // Girilen diğer sayıların durumunu kontrol etme
+        for (int i = 2; i <= n; i++) {
+            System.out.println(i + ". sayıyı giriniz:");
+            int num = inp.nextInt();
+            if (num > max) {
+                max = num;
             }
-        } else if (b > a && b > c) {
-            if (a > c) {
-                System.out.println("Sıralama: " + b + ", " + a + ", " + c);
-            } else {
-                System.out.println("Sıralama: " + b + ", " + c + ", " + a);
-            }
-        }else if (c > a && c > b){
-            if (a > b) {
-                System.out.println("Sıralama: " + c + ", " + a + ", " + b);
-            } else {
-                System.out.println("Sıralama: " + c + ", " + b + ", " + a);
+            if (num < min) {
+                min = num;
             }
         }
 
+        // En büyük ve küçük sayıyı yazdırma
+        System.out.println("En büyük sayı: " + max);
+        System.out.println("En küçük sayı: " + min);
 
     }
 }
