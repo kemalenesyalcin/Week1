@@ -1,0 +1,1 @@
+Kullanıcının belirlediği kadar fibonacci serisi yapan program
