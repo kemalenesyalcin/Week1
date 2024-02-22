@@ -1,0 +1,1 @@
+Kullanıcının girdiği sayının mükemmel sayi olup olmadığını kontrol eden program.
