@@ -6,7 +6,7 @@ public class Main {
         //fibonacci 0 1 seklinde başladığı için döngüde kullanmak için onları birer değişkene atadık
         int n1 = 0;
         int n2 = 1;
-        int total = 0;
+        int total;
 
         //Kullanıcıdan seri sayısı bilgisi alma
         System.out.print("Kaç elemanlı fibonacci serisi yapmak istersiniz ?");
