@@ -1,0 +1,1 @@
+Kullanıcıdan aldığı int ve double deeğerleri birbirine dönüştüren program
