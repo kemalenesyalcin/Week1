@@ -9,7 +9,6 @@ public class Main {
         // Recursive olarak üs alma işlemini gerçekleştirme
         return base * expoFind(base,exponent - 1);
 
-
     }
 
     public static void main(String[] args) {
